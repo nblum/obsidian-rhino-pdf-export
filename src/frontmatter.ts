@@ -23,6 +23,7 @@ type FieldSpec =
 const FIELD_SPECS: Partial<Record<keyof PdfTheme, FieldSpec>> = {
   primaryColor: { kind: "color" },
   accentColor: { kind: "color" },
+  linkColor: { kind: "color" },
   logoPath: { kind: "text" },
   showCover: { kind: "boolean" },
   showToc: { kind: "boolean" },

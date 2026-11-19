@@ -167,6 +167,11 @@ body {
   page-break-after: always;
 }
 
+/* --- Body links (theme link color) --- */${theme.linkColor ? `
+a, a.external-link, a.internal-link {
+  color: ${theme.linkColor};
+}` : ""}
+
 /* --- External link rendering --- */
 .rhino-url {
   color: #666;
